@@ -1492,11 +1492,6 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 44px;
 }
 
-.tooltip.show{
-  visibility: visible;
-  opacity: 1;
-}
-
 .progress-fill{
   height: 0.5rem;
   border-radius: 9999px;
@@ -1728,22 +1723,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .animate-rotate-in{
   animation: rotateIn 300ms ease-in-out;
-}
-
-@keyframes rotateOut{
-  0%{
-    transform: rotate(0);
-    opacity: 1;
-  }
-
-  100%{
-    transform: rotate(90deg);
-    opacity: 0;
-  }
-}
-
-.animate-rotate-out{
-  animation: rotateOut 300ms ease-in-out;
 }
 
 @keyframes slideUp{
